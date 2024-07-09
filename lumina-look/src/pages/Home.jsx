@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import Header from '../components/Header';
+import Hero from '../components/Hero'
 
 function home() {
 	const { t } = useTranslation();
@@ -7,6 +8,7 @@ function home() {
 	return (
 		<>
 			<Header />
+			<Hero />
 		</>
 	);
 }
