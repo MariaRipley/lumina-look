@@ -1,14 +1,21 @@
 {
-    "home": {
-      "title": "Welcome to Glamour Essence",
-      "description": "Professional makeup services for all occasions."
-    },
-    "services": {
-      "title": "Our Services",
-      "bridal": "Bridal Makeup",
-      "social": "Social Makeup",
-      "advertising": "Advertising Makeup",
-      "editorial": "Editorial Makeup"
-    }
+  "home": {
+    "title": "Home",
+    "description": "Welcome to Lumina Look"
+  },
+  "services": {
+    "title": "Services",
+    "bridal": "Bridal Makeup",
+    "events": "Events makeup",
+    "courses": "Makeup courses",
+    "advertising": "Advertising Makeup"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Learn more about Lumina Look"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Get in touch with Lumina Look"
   }
-  
+}

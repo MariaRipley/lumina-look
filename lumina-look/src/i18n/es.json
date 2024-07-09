@@ -1,14 +1,21 @@
 {
-    "home": {
-      "title": "Bienvenido a Glamour Essence",
-      "description": "Servicios de maquillaje profesional para todas las ocasiones."
-    },
-    "services": {
-      "title": "Nuestros Servicios",
-      "bridal": "Maquillaje de Novia",
-      "social": "Maquillaje Social",
-      "advertising": "Maquillaje para Publicidad",
-      "editorial": "Maquillaje Editorial"
-    }
-  }
-  
+	"home": {
+		"title": "Inicio",
+		"description": "Bienvenido a Lumina Look"
+	},
+	"services": {
+		"title": "Servicios",
+		"bridal": "Maquillaje de novia",
+		"social": "Maquillaje para eventos",
+		"cursos": "Cursos de maquillaje",
+		"advertising": "Maquillaje para publicidad"
+	},
+	"about": {
+		"title": "Sobre Nosotros",
+		"description": "Conoce más sobre Lumina Look"
+	},
+	"contact": {
+		"title": "Contáctanos",
+		"description": "Ponte en contacto con Lumina Look"
+	}
+}
