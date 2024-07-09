@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import SocialBar from './SocialBar';
 
-function Header () {
+function Header() {
 	const { t, i18n } = useTranslation();
 	const [isOpen, setIsOpen] = useState(false);
 
@@ -44,6 +44,6 @@ function Header () {
 			<SocialBar />
 		</header>
 	);
-};
+}
 
 export default Header;

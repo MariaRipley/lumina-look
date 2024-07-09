@@ -7,10 +7,10 @@ import CoursesPic from '../assets/courses.jpg';
 import AdPic from '../assets/advertising.jpg';
 
 const services = [
-	{ image: BridalPic, label: 'Bridal Makeup', path: '/bridal' },
-	{ image: EventsPic, label: 'Event Makeup', path: '/events' },
-	{ image: CoursesPic, label: 'Makeup Courses', path: '/courses' },
-	{ image: AdPic, label: 'Advertising Makeup', path: '/advertising' },
+	{ image: BridalPic, label: 'Bridal Makeup', path: '/services#bridal' },
+	{ image: EventsPic, label: 'Event Makeup', path: '/services#events' },
+	{ image: CoursesPic, label: 'Makeup Courses', path: '/services#courses' },
+	{ image: AdPic, label: 'Advertising Makeup', path: '/services#advertising' },
 ];
 
 function Hero() {
