@@ -7,6 +7,8 @@ function ContactForm() {
 		message: '',
 	});
 
+	const [showSuccessMessage, setShowSuccessMessage] = useState(false);
+
 	const handleChange = (ev) => {
 		setFormData({ ...formData, [ev.target.name]: ev.target.value });
 	};
@@ -15,6 +17,10 @@ function ContactForm() {
 		ev.preventDefault();
 		console.log(formData);
 		setFormData({ name: '', email: '', message: '' });
+		setShowSuccessMessage(true);
+		setTimeout(() => {
+			setShowSuccessMessage(false);
+		}, 8000);
 	};
 
 	return (
@@ -73,6 +79,7 @@ function ContactForm() {
 						</button>
 					</div>
 				</form>
+				{showSuccessMessage && <p className='mt-4 text-green-600'>¡Mensaje enviado con éxito!</p>}
 			</div>
 		</section>
 	);
