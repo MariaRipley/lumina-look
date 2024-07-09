@@ -1,0 +1,14 @@
+{
+    "home": {
+      "title": "Bienvenido a Glamour Essence",
+      "description": "Servicios de maquillaje profesional para todas las ocasiones."
+    },
+    "services": {
+      "title": "Nuestros Servicios",
+      "bridal": "Maquillaje de Novia",
+      "social": "Maquillaje Social",
+      "advertising": "Maquillaje para Publicidad",
+      "editorial": "Maquillaje Editorial"
+    }
+  }
+  
