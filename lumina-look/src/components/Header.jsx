@@ -21,7 +21,7 @@ function Header() {
 					<h1 className='text-2xl text-orange-600'>LUMINA LOOK</h1>
 					<p className='text-orange-600'>Makeup Artist</p>
 				</div>
-				<div className='flex-shrink-0'>
+				<div>
 					<SocialBar />
 				</div>
 			</div>
@@ -39,6 +39,7 @@ function Header() {
 					<Link to='/contact' className='text-orange-600 py-1'>
 						{t('contact.title')}
 					</Link>
+
 					<div>
 						<button onClick={() => changeLanguage('es')} className='mr-2'>
 							ES

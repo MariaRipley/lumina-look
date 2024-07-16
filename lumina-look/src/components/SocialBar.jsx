@@ -1,7 +1,16 @@
-
+import { FaInstagram, FaPinterest } from 'react-icons/fa';
 
 function SocialBar() {
-	return <>Social Bar</>;
+	return (
+		<div>
+			<a href='https://www.instagram.com' target='_blank' rel='noopener noreferrer'>
+				<FaInstagram className='text-orange-600 text-2xl mb-1' />
+			</a>
+			<a href='https://www.pinterest.com' target='_blank' rel='noopener noreferrer'>
+				<FaPinterest className='text-orange-600 text-2xl' />
+			</a>
+		</div>
+	);
 }
 
 export default SocialBar;
