@@ -2,7 +2,7 @@ import { FaInstagram, FaPinterest } from 'react-icons/fa';
 
 function SocialBar() {
 	return (
-		<div>
+		<div className='md:flex md:gap-5'>
 			<a href='https://www.instagram.com' target='_blank' rel='noopener noreferrer'>
 				<FaInstagram className='text-orange-600 text-2xl mb-1' />
 			</a>

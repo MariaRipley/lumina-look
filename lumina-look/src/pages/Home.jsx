@@ -6,7 +6,7 @@ import Lumina from '../components/Lumina';
 import ContactForm from '../components/ContactForm';
 import Footer from '../components/Footer';
 
-function home() {
+function Home() {
 	const { t } = useTranslation();
 
 	return (
@@ -20,4 +20,4 @@ function home() {
 	);
 }
 
-export default home;
+export default Home;
