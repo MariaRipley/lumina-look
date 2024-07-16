@@ -4,10 +4,10 @@ function SocialBar() {
 	return (
 		<div className='md:flex md:gap-5'>
 			<a href='https://www.instagram.com' target='_blank' rel='noopener noreferrer'>
-				<FaInstagram className='text-orange-600 text-2xl mb-1' />
+				<FaInstagram className='text-accentOrange text-2xl mb-1' />
 			</a>
 			<a href='https://www.pinterest.com' target='_blank' rel='noopener noreferrer'>
-				<FaPinterest className='text-orange-600 text-2xl' />
+				<FaPinterest className='text-accentOrange text-2xl' />
 			</a>
 		</div>
 	);

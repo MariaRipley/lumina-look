@@ -24,9 +24,9 @@ function ContactForm() {
 	};
 
 	return (
-		<section className='bg-gray-100 py-12'>
+		<section className='bg-lightGreen bg-opacity-25 py-12'>
 			<div className='max-w-4xl mx-auto px-4'>
-				<h2 className='text-3xl font-semibold text-orange-600 mb-6'>Contacto</h2>
+				<h2 className='text-3xl font-semibold text-accentOrange mb-6'>Contacto</h2>
 				<form onSubmit={handleSubmit} className='space-y-4'>
 					<div>
 						<label htmlFor='name' className='block text-gray-700 font-medium'>
@@ -73,7 +73,7 @@ function ContactForm() {
 					<div>
 						<button
 							type='submit'
-							className='bg-orange-600 text-white px-6 py-3 rounded-md hover:bg-orange-600 focus:outline-none'
+							className='bg-accentOrange text-white px-6 py-3 rounded-md hover:bg-bgGreen focus:outline-none'
 						>
 							Enviar
 						</button>
