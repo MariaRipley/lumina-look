@@ -11,9 +11,9 @@ function Services() {
     return (
         <>
             <Header />
-            <div className='max-w-7xl mx-auto px-4 py-12'>
+            <div className=' mx-auto'>
                 {services.map((service, index) => (
-                    <section key={service.id} id={service.id} className={`mb-8 flex flex-col md:flex-row items-center ${index % 2 === 0 ? 'md:flex-row-reverse' : 'md:flex-row'}`}>
+                    <section key={service.id} id={service.id} className={`mb-8 md:p-10 flex flex-col md:flex-row items-center ${index % 2 === 0 ? 'md:flex-row-reverse md:bg-lightGreen md:bg-opacity-35' : 'md:flex-row'}`}>
                         <div className='max-w-xs mx-auto md:w-1/2 mb-6 md:mb-10'>
                             <Carousel showThumbs={false} showStatus={false} infiniteLoop>
                                 {service.images.map((image, index) => (
