@@ -3,49 +3,8 @@ import Footer from '../components/Footer';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { useTranslation } from 'react-i18next';
+import services from '../data/servicesData';
 
-const services = [
-	{
-		id: 'bridal',
-		title: 'Bridal Makeup',
-		images: [
-			{ src: 'url de la imagen 1', alt: 'Imagen 1' },
-			{ src: 'url de la imagen 2', alt: 'Imagen 2' },
-			{ src: 'url de la imagen 3', alt: 'Imagen 3' },
-		],
-		description: 'Descripción y detalles del servicio de maquillaje nupcial.',
-	},
-	{
-		id: 'events',
-		title: 'Event Makeup',
-		images: [
-			{ src: 'url de la imagen 1', alt: 'Imagen 1' },
-			{ src: 'url de la imagen 2', alt: 'Imagen 2' },
-			{ src: 'url de la imagen 3', alt: 'Imagen 3' },
-		],
-		description: 'Descripción y detalles del servicio de maquillaje para eventos.',
-	},
-	{
-		id: 'courses',
-		title: 'Makeup Courses',
-		images: [
-			{ src: 'url de la imagen 1', alt: 'Imagen 1' },
-			{ src: 'url de la imagen 2', alt: 'Imagen 2' },
-			{ src: 'url de la imagen 3', alt: 'Imagen 3' },
-		],
-		description: 'Descripción y detalles de los cursos de maquillaje.',
-	},
-	{
-		id: 'advertising',
-		title: 'Advertising Makeup',
-		images: [
-			{ src: 'url de la imagen 1', alt: 'Imagen 1' },
-			{ src: 'url de la imagen 2', alt: 'Imagen 2' },
-			{ src: 'url de la imagen 3', alt: 'Imagen 3' },
-		],
-		description: 'Descripción y detalles del servicio de maquillaje publicitario.',
-	},
-];
 
 function Services() {
 	const { t } = useTranslation();
