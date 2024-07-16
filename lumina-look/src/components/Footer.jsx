@@ -6,7 +6,6 @@ function Footer() {
 			<div className='max-w-7xl mx-auto px-4'>
 				<div className='flex flex-col md:flex-row justify-between items-center'>
 					<div className='text-center md:text-left mb-4 md:mb-0'>
-						<h3 className='text-lg font-semibold'>Enlaces rápidos</h3>
 						<nav className='mt-2 space-y-2'>
 							<Link to='/' className='block hover:text-orange-500'>
 								Inicio
