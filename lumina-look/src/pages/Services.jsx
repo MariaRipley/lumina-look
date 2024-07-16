@@ -12,10 +12,10 @@ function Services() {
 	return (
 		<>
 			<Header />
-			<div className='max-w-7xl mx-auto px-4 py-12'>
+			<div className='max-w-lg mx-auto px-4 py-12'>
 				{services.map((service) => (
 					<section key={service.id} id={service.id} className='mb-8'>
-						<h2 className='text-3xl font-semibold mb-4'>{t(service.title)}</h2>
+						<h2 className='text-3xl text-center font-semibold mb-4'>{t(service.title)}</h2>
 						<Carousel showThumbs={false} showStatus={false} infiniteLoop>
 							{service.images.map((image, index) => (
 								<div key={index}>
@@ -23,7 +23,7 @@ function Services() {
 								</div>
 							))}
 						</Carousel>
-						<p className='text-lg mt-4'>{t(service.description)}</p>
+						<p className='text-lg text-center mt-4 p-4'>{t(service.description)}</p>
 					</section>
 				))}
 			</div>
