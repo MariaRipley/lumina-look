@@ -12,13 +12,19 @@ function Header() {
 	};
 
 	return (
-		<header className='p-4 flex flex-col items-center'>
-			<button className='text-orange-600 text-3xl' onClick={() => setIsOpen(!isOpen)}>
-				&#9776;
-			</button>
-			<h1 className='text-2xl text-orange-600'>LUMINA LOOK</h1>
-			<p className='text-orange-600'>Makeup Artist</p>
-
+		<header className='flex flex-col items-center p-4'>
+			<div className='flex justify-between w-full items-center'>
+				<button className='text-orange-600 text-3xl' onClick={() => setIsOpen(!isOpen)}>
+					&#9776;
+				</button>
+				<div className='flex flex-col items-center flex-1'>
+					<h1 className='text-2xl text-orange-600'>LUMINA LOOK</h1>
+					<p className='text-orange-600'>Makeup Artist</p>
+				</div>
+				<div className='flex-shrink-0'>
+					<SocialBar />
+				</div>
+			</div>
 			{isOpen && (
 				<nav className='flex flex-col items-center mt-2'>
 					<Link to='/' className='text-orange-600 py-1'>
@@ -41,7 +47,6 @@ function Header() {
 					</div>
 				</nav>
 			)}
-			<SocialBar />
 		</header>
 	);
 }
