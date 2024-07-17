@@ -8,6 +8,9 @@ export default {
 				lightGreen: '#777f7e',
 				accentOrange: '#d66055',
 			},
+			fontFamily: {
+				sans: ['Edu AU VIC WA NT Hand', 'sans-serif']
+			}
 		},
 	},
 	plugins: [],
