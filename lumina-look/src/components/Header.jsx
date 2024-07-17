@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import {HashLink} from 'react-router-hash-link';
 import { useTranslation } from 'react-i18next';
 import SocialBar from './SocialBar';
 
@@ -31,12 +32,12 @@ function Header() {
 						<Link to='/services' className='text-accentOrange'>
 							{t('services.title')}
 						</Link>
-						<Link to='#about' className='text-accentOrange'>
+						<HashLink smooth to='/#about' className='text-accentOrange'>
 							{t('about.title')}
-						</Link>
-						<Link to='#contact' className='text-accentOrange'>
+						</HashLink>
+						<HashLink smooth to='/#contact' className='text-accentOrange'>
 							{t('contact.title')}
-						</Link>
+						</HashLink>
 					</nav>
 				</div>
 				<div className='flex-shrink-0'>
@@ -51,12 +52,12 @@ function Header() {
 					<Link to='/services' className='text-accentOrange py-1'>
 						{t('services.title')}
 					</Link>
-					<Link to='#about' className='text-accentOrange py-1'>
+					<HashLink smooth to='/#about' className='text-accentOrange py-1'>
 						{t('about.title')}
-					</Link>
-					<Link to='#contact' className='text-accentOrange py-1'>
+					</HashLink>
+					<HashLink smooth to='/#contact' className='text-accentOrange py-1'>
 						{t('contact.title')}
-					</Link>
+					</HashLink>
 					<div className='flex'>
 						<button onClick={() => changeLanguage('es')} className='mr-2'>
 							ES

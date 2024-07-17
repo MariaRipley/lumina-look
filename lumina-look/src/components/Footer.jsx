@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import {HashLink} from 'react-router-hash-link';
 
 function Footer() {
 	return (
@@ -13,12 +14,12 @@ function Footer() {
 							<Link to='/services' className='block hover:text-accentOrange'>
 								Servicios
 							</Link>
-							<Link to='/about' className='block hover:text-accentOrange'>
+							<HashLink smooth to='/#about' className='block hover:text-accentOrange'>
 								Acerca de
-							</Link>
-							<Link to='/contact' className='block hover:text-accentOrange'>
+							</HashLink>
+							<HashLink smooth to='/#contact' className='block hover:text-accentOrange'>
 								Contacto
-							</Link>
+							</HashLink>
 						</nav>
 					</div>
 					<div className='text-center md:text-left mb-4 md:mb-0'>

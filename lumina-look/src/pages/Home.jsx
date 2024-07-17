@@ -7,21 +7,17 @@ import ContactForm from '../components/ContactForm';
 import Footer from '../components/Footer';
 
 function Home() {
-    const { t } = useTranslation();
+	const { t } = useTranslation();
 
-    return (
-        <>
-            <Header />
-            <Hero />
-            <div id="about">
-                <Lumina />
-            </div>
-            <div id="contact">
-                <ContactForm />
-            </div>
-            <Footer />
-        </>
-    );
+	return (
+		<>
+			<Header />
+			<Hero />
+			<Lumina />
+			<ContactForm />
+			<Footer />
+		</>
+	);
 }
 
 export default Home;

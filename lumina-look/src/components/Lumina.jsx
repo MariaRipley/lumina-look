@@ -1,6 +1,6 @@
 function Lumina() {
 	return (
-		<section className='bg-white py-28 text-center'>
+		<section id="about" className='bg-white py-28 text-center'>
 			<div className='max-w-4xl mx-auto px-12'>
 				<h2 className='text-3xl font-semibold text-accentOrange mb-6'>Quiénes somos</h2>
 				<p className='text-gray-700 leading-relaxed'>
