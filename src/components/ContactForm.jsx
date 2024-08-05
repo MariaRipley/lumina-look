@@ -26,7 +26,7 @@ function ContactForm() {
 	return (
 		<section id='contact' className='bg-lightGreen bg-opacity-25 py-12'>
 			<div className='max-w-4xl mx-auto px-4'>
-				<h2 className='text-3xl font-semibold text-accentOrange mb-6'>Contacto</h2>
+				<h2 className='font-lumina text-3xl font-semibold text-accentOrange mb-6'>Contacto</h2>
 				<form onSubmit={handleSubmit} className='space-y-4' aria-label='Formulario de contacto'>
 					<div>
 						<label htmlFor='name' className='block text-gray-700 font-medium'>

@@ -26,7 +26,7 @@ function Header() {
         </button>
         <div className='flex flex-col items-center'>
           <Link to='/' className='text-accentOrange text-center'>
-            <h1 className='text-2xl text-accentOrange'>LUMINA LOOK</h1>
+            <h1 className='font-lumina text-2xl text-accentOrange'>LUMINA LOOK</h1>
             <p className='text-accentOrange'>Makeup Artist</p>
           </Link>
         </div>

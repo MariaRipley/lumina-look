@@ -25,7 +25,7 @@ function Hero() {
 								<div>
 									<img loading='lazy' src={service.image} alt={service.label} className='w-full h-3/4 object-cover' />
 									<div className='absolute bottom-[-20px] left-1/2 transform -translate-x-1/2 bg-white bg-opacity-75 px-4 py-2'>
-										<h2 className='text-lg font-semibold text-center'>{service.label}</h2>
+										<h2 className='text-lg font-sans font-semibold text-center'>{service.label}</h2>
 									</div>
 								</div>
 							</div>

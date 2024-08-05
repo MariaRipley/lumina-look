@@ -9,7 +9,7 @@ export default {
 				accentOrange: '#B55047',
 			},
 			fontFamily: {
-				sans: ['Edu AU VIC WA NT Hand', 'sans-serif'],
+				lumina: ['Edu AU VIC WA NT Hand', 'sans-serif'],
 			},
 		},
 	},
