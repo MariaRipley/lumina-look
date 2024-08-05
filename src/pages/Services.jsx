@@ -11,7 +11,7 @@ function Services() {
     return (
         <>
             <Header />
-            <div className=' mx-auto'>
+            <div className='mx-auto'>
                 {services.map((service, index) => (
                     <section key={service.id} id={service.id} className={`mb-8 md:p-10 flex flex-col md:flex-row items-center ${index % 2 === 0 ? 'md:flex-row-reverse md:bg-lightGreen md:bg-opacity-35' : 'md:flex-row'}`}>
                         <div className='max-w-xs mx-auto md:w-1/2 mb-6 md:mb-10'>
@@ -24,8 +24,8 @@ function Services() {
                             </Carousel>
                         </div>
                         <div className='max-w-lg mx-auto md:w-1/2'>
-                            <h2 className='text-3xl text-center font-semibold mb-4'>{t(service.title)}</h2>
-                            <p className='text-lg text-center mt-4 p-4'>{t(service.description)}</p>
+                            <h2 className='text-3xl text-center font-semibold mb-4'>{t(`services.${service.id}`)}</h2>
+                            <p className='text-lg text-center mt-4 p-4'>{t(`services.${service.id}Description`)}</p>
                         </div>
                     </section>
                 ))}

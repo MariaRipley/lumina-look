@@ -1,21 +1,43 @@
 {
-	"home": {
-		"title": "Inicio",
-		"description": "Bienvenido a Lumina Look"
-	},
-	"services": {
-		"title": "Servicios",
-		"bridal": "Maquillaje de novia",
-		"social": "Maquillaje para eventos",
-		"cursos": "Cursos de maquillaje",
-		"advertising": "Maquillaje para publicidad"
-	},
-	"about": {
-		"title": "Sobre Nosotros",
-		"description": "Conoce más sobre Lumina Look"
-	},
-	"contact": {
-		"title": "Contáctanos",
-		"description": "Ponte en contacto con Lumina Look"
-	}
+    "home": {
+        "title": "Inicio",
+        "description": "Bienvenido a Lumina Look"
+    },
+    "services": {
+        "title": "Servicios",
+        "bridal": "Maquillaje de Novia",
+        "bridalDescription": "Nuestro servicio de maquillaje para novias está diseñado para realzar tu belleza natural y crear un look que refleje tu estilo personal en el día más especial de tu vida. Utilizamos técnicas profesionales y productos de alta calidad para asegurar que te sientas radiante y segura durante toda la jornada.",
+        "events": "Maquillaje para Eventos",
+        "eventsDescription": "Ya sea para una gala, una fiesta de graduación, una cena especial o cualquier otro evento, crearemos un maquillaje personalizado y que complemente tu personalidad.",
+        "courses": "Cursos de Maquillaje",
+        "coursesDescription": "Explora nuestro exclusivo programa de cursos diseñados para empoderarte en el arte del maquillaje y el autocuidado. Ofrecemos una variedad de opciones que incluyen desde automaquillaje y técnicas avanzadas hasta cuidado de la piel y sesiones personalizadas para grupos de amigas.",
+        "advertising": "Maquillaje Publicitario",
+        "advertisingDescription": "Confía en nosotros para llevar tu proyecto visual al siguiente nivel con maquillajes que cuentan historias y resaltan la esencia de tu marca o proyecto."
+    },
+    "about": {
+        "title": "Acerca de",
+        "description": "Lumina Look es un estudio dedicado a ofrecer servicios profesionales de maquillaje para diversas ocasiones, incluyendo maquillaje social, para novias, para eventos publicitarios y editoriales. Nos especializamos en resaltar la belleza natural de cada persona a través de técnicas y productos de alta calidad."
+    },
+    "contact": {
+        "title": "Contacto",
+        "formAriaLabel": "Formulario de contacto",
+        "name": "Nombre",
+        "email": "Email",
+        "message": "Mensaje",
+        "submit": "Enviar",
+        "submitAriaLabel": "Enviar formulario",
+        "successMessage": "¡Mensaje enviado con éxito!"
+    },
+    "footer": {
+        "linksAriaLabel": "Enlaces del pie de página",
+        "home": "Inicio",
+        "services": "Servicios",
+        "about": "Acerca de",
+        "contact": "Contacto",
+        "socialMedia": "Redes sociales",
+        "socialMediaAriaLabel": "Enlaces de redes sociales",
+        "contactInfo": "Información de contacto",
+        "email": "Correo electrónico",
+        "phone": "Teléfono"
+    }
 }

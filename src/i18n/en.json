@@ -1,21 +1,43 @@
 {
-  "home": {
-    "title": "Home",
-    "description": "Welcome to Lumina Look"
-  },
-  "services": {
-    "title": "Services",
-    "bridal": "Bridal Makeup",
-    "events": "Events makeup",
-    "courses": "Makeup courses",
-    "advertising": "Advertising Makeup"
-  },
-  "about": {
-    "title": "About Us",
-    "description": "Learn more about Lumina Look"
-  },
-  "contact": {
-    "title": "Contact Us",
-    "description": "Get in touch with Lumina Look"
-  }
+    "home": {
+        "title": "Home",
+        "description": "Welcome to Lumina Look"
+    },
+    "services": {
+        "title": "Services",
+        "bridal": "Bridal Makeup",
+        "bridalDescription": "Our bridal makeup service is designed to enhance your natural beauty and create a look that reflects your personal style on the most special day of your life. We use professional techniques and high-quality products to ensure you feel radiant and confident throughout the day.",
+        "events": "Event Makeup",
+        "eventsDescription": "Whether it's for a gala, graduation party, special dinner, or any other event, we'll create a personalized makeup look that complements your personality.",
+        "courses": "Makeup Courses",
+        "coursesDescription": "Explore our exclusive course program designed to empower you in the art of makeup and self-care. We offer a range of options, including self-makeup and advanced techniques, as well as skincare and personalized sessions for groups of friends.",
+        "advertising": "Advertising Makeup",
+        "advertisingDescription": "Trust us to take your visual project to the next level with makeup that tells stories and highlights the essence of your brand or project."
+    },
+    "about": {
+        "title": "About Us",
+        "description": "Lumina Look is a studio dedicated to offering professional makeup services for various occasions, including social makeup, bridal makeup, and makeup for advertising and editorial events. We specialize in highlighting the natural beauty of each person through high-quality techniques and products."
+    },
+    "contact": {
+        "title": "Contact",
+        "formAriaLabel": "Contact Form",
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "submit": "Submit",
+        "submitAriaLabel": "Submit form",
+        "successMessage": "Message sent successfully!"
+    },
+    "footer": {
+        "linksAriaLabel": "Footer links",
+        "home": "Home",
+        "services": "Services",
+        "about": "About",
+        "contact": "Contact",
+        "socialMedia": "Social Media",
+        "socialMediaAriaLabel": "Social media links",
+        "contactInfo": "Contact Information",
+        "email": "Email",
+        "phone": "Phone"
+    }
 }
