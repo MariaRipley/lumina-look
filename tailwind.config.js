@@ -6,7 +6,7 @@ export default {
 			colors: {
 				bgGreen: '#3c5453',
 				lightGreen: '#777f7e',
-				accentOrange: '#d66055',
+				accentOrange: '#B55047',
 			},
 			fontFamily: {
 				sans: ['Edu AU VIC WA NT Hand', 'sans-serif']
