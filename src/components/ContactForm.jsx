@@ -27,7 +27,7 @@ function ContactForm() {
 		<section id='contact' className='bg-lightGreen bg-opacity-25 py-12'>
 			<div className='max-w-4xl mx-auto px-4'>
 				<h2 className='text-3xl font-semibold text-accentOrange mb-6'>Contacto</h2>
-				<form onSubmit={handleSubmit} className='space-y-4'>
+				<form onSubmit={handleSubmit} className='space-y-4' aria-label='Formulario de contacto'>
 					<div>
 						<label htmlFor='name' className='block text-gray-700 font-medium'>
 							Nombre
@@ -40,6 +40,7 @@ function ContactForm() {
 							onChange={handleChange}
 							className='w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:border-orange-600'
 							required
+							aria-required='true'
 						/>
 					</div>
 					<div>
@@ -54,6 +55,7 @@ function ContactForm() {
 							onChange={handleChange}
 							className='w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:border-orange-600'
 							required
+							aria-required='true'
 						/>
 					</div>
 					<div>
@@ -68,18 +70,24 @@ function ContactForm() {
 							rows='4'
 							className='w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:border-orange-600'
 							required
+							aria-required='true'
 						></textarea>
 					</div>
 					<div>
 						<button
 							type='submit'
 							className='bg-accentOrange text-white px-6 py-3 rounded-md hover:bg-bgGreen focus:outline-none'
+							aria-label='Enviar formulario'
 						>
 							Enviar
 						</button>
 					</div>
 				</form>
-				{showSuccessMessage && <p className='mt-4 text-green-600'>¡Mensaje enviado con éxito!</p>}
+				{showSuccessMessage && (
+					<p className='mt-4 text-green-600' role='alert'>
+						¡Mensaje enviado con éxito!
+					</p>
+				)}
 			</div>
 		</section>
 	);
