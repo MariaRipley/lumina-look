@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import Hero from '../components/Hero';
 import Lumina from '../components/Lumina';
 import ContactForm from '../components/ContactForm';
+import Booking from '../components/Booking';
 import Footer from '../components/Footer';
 
 function Home() {
@@ -14,6 +15,7 @@ function Home() {
 			<Header />
 			<Hero />
 			<Lumina />
+			<Booking />
 			<ContactForm />
 			<Footer />
 		</>

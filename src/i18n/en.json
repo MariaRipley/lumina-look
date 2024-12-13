@@ -18,6 +18,9 @@
         "title": "About Us",
         "description": "Lumina Look is a studio dedicated to offering professional makeup services for various occasions, including social makeup, bridal makeup, and makeup for advertising and editorial events. We specialize in highlighting the natural beauty of each person through high-quality techniques and products."
     },
+    "booking": {
+        "title": "Book an appointment"
+    },
     "contact": {
         "title": "Contact",
         "formAriaLabel": "Contact Form",
